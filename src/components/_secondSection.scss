@@ -1,0 +1,90 @@
+.secondSection{
+    font-family: sans-serif;
+
+    &__top{
+        background-color: #0D0D2B;
+        color: #ffffff;
+    }
+    &__text {
+        padding: 20px;
+        text-align: center;
+    }
+    &__text h2{
+        margin-top: 0;
+        font-size: 2rem;
+    }
+    &__text p{
+        font-size: 1rem;
+        line-height: 24px;
+    }
+
+    &__form{
+        background-color: #ffffff;
+        color: #747070;
+        margin: 0 3rem;
+        padding-top: 4rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        border-top-left-radius: 1.5rem;
+        border-top-right-radius: 1.5rem;
+
+        @media screen and (min-width: 600px) {
+            margin: 0 16rem;
+        }
+    }
+    
+    &__form form{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 0.5rem;
+
+        @media screen and (min-width: 600px) {
+            flex-direction: row;
+            justify-content: space-between;
+        }
+    }
+    &__form form input{
+        border: none;
+        border-bottom: 1px solid #747070;
+        margin-bottom: 1.5rem;
+        margin-top: 1.5rem;
+        font-size: 1rem;
+        line-height: 24px;
+        font-weight: 600;
+
+        @media screen and (min-width: 600px) {
+            margin: .5rem 1.5rem;
+            width: 50%;
+        }
+    }
+    &__form form button{
+        @media screen and (min-width: 600px) {
+            width: 20%;
+            margin: 0;
+        }
+    }
+    &__bottom{
+        background-color: #ffffff;
+        padding: 0;
+    }
+}
+
+.extra{
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+    border: none;
+    border-left: 1px solid #808080;
+    border-right: 1px solid #808080;
+    border-bottom: 1px solid #808080;
+    margin-bottom: 3rem;
+    padding: 0 20px;
+    padding-bottom: 2rem;
+
+    &__color{
+        color: #3671E9;
+    }
+}

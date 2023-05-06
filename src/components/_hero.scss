@@ -1,0 +1,79 @@
+.hero{
+    background-image: url('./assets/Crypto-images/hero-bg.png');
+    color: #ffffff;
+    padding: 0 20px;
+    margin: 0;
+    display:flex;
+    flex-direction: column;
+    font-family: sans-serif;
+
+    @media screen and (min-width: 600px) {
+        flex-direction: row-reverse;
+        align-items: center;
+        padding: 4rem;
+    }
+
+    &__leftTop{
+        padding: 0 2px;
+        border-radius: 2rem;
+        display: flex;
+        gap: 5px;
+        background: #ffffff1a;
+
+        
+    }
+
+    &__leftTop p{
+        font-size: 1rem;
+        line-height: 24px;
+    }
+
+    &__left{
+        @media screen and (min-width: 600px) {
+            width: 50%;
+        }
+    }
+
+    &__left > h1 {
+        font-size: 12vw;
+        text-align: center;
+        margin: 3rem 0;
+
+        @media screen and (min-width: 600px) {
+            font-size: 3vw;
+            text-align: left;
+        }
+    }
+
+    &__left > p {
+        font-size: 1rem;
+        line-height: 24px;
+        text-align: center;
+        margin: 0 0 10%;
+
+        @media screen and (min-width: 600px) {
+            text-align: left;
+        }
+    }
+
+    &__left > a {
+        position: relative;
+        left: 27%;
+
+        @media screen and (min-width: 600px) {
+            left: 0%;
+        }
+    }
+    &__right {
+        order: -1;
+        padding: 3rem 2rem;
+    }
+}
+
+span{
+    background: #ffffff;
+    color: #0D0D2B;
+    border-radius: 2rem;
+    padding: 0 0.5rem;
+    font-weight: 700;
+}

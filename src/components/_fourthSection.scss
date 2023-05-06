@@ -1,0 +1,65 @@
+.fourthSection{
+    background-image: linear-gradient(#2B076E, #0F0C30);
+    color: #ffffff;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 2rem 20px;
+
+    &__content{
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+    
+    &__heading{
+        font-size: 1.5rem;
+        margin-bottom: 5rem;
+    }
+}
+
+.CTA{
+    margin: 1.5rem;
+    display: flex;
+    flex-direction: column;
+
+    @media screen and (min-width:600px) {
+        flex-direction: row;
+        margin: 4rem;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__content{
+        @media screen and (min-width:600px) {
+                text-align: left;
+                width: 40%;
+            }
+    }
+
+    &__contentRight {
+        @media screen and (min-width:600px) {
+            text-align: right;
+            width: 30%;
+        }
+    }
+
+    &__cardHeading{
+        font-size: 1.5rem;   
+    }
+    &__cardBody{
+        font-size: 1rem;
+    }
+}
+
+.CTA button {
+    margin-bottom: 1rem;
+    border: hidden;
+    
+    @media screen and (min-width:600px) {
+        text-align: left;
+    }
+}
+
+.forSpacing{
+    margin-bottom: 6rem;
+}

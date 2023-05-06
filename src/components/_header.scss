@@ -1,0 +1,40 @@
+.header{
+    width: 100%;
+    background: #0D0D2B;
+    margin: 0;
+    padding: 2rem 1rem;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+
+    &__nav{
+        display: none;
+        @media screen and (min-width: 600px){
+            display: flex;
+            justify-content: space-around;
+        }
+    }
+    &__nav ul{
+        display: flex;
+    }
+    &__nav ul li{
+        list-style: none;
+        padding: 0 10px;
+    }
+    &__nav li a{
+        color: #ffffff;
+    }
+}
+ .auth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2.5rem;
+ }
+
+.auth > a{
+    color: #ffffff;
+    margin: 0 0.5rem;
+    font-weight: 900;
+}

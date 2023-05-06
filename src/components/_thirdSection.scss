@@ -1,0 +1,30 @@
+.thirdSection{
+    font-family: sans-serif;
+    padding: 10%;
+    margin: 15% 0;
+    display: flex;
+    flex-direction: column;
+
+    @media screen and (min-width:600px){
+        padding: 5%;
+        margin: 5%;
+    }
+
+    &__title{
+        text-align: center;
+        font-size: 2rem;
+
+        @media screen and (min-width:600px) {
+                padding: 5%;
+            }
+    }
+
+    &__cards{
+        display: flex;
+        flex-direction: column;
+
+        @media screen and (min-width: 600px) {
+                flex-direction: row;  
+            }
+    }
+}
