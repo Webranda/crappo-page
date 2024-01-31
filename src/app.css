@@ -22,7 +22,7 @@
   background: rgba(255, 255, 255, 0.1019607843);
 }
 .hero__leftTop p {
-  font-size: 1rem;
+  font-size: 0.9rem;
   line-height: 24px;
 }
 @media screen and (min-width: 600px) {
@@ -70,8 +70,9 @@ span {
   background: #ffffff;
   color: #0D0D2B;
   border-radius: 2rem;
-  padding: 0 0.5rem;
+  padding: 0 1rem;
   font-weight: 700;
+  margin-right: 0.5rem;
 }
 
 .header {
@@ -242,6 +243,7 @@ span {
 .secondSection__form form input {
   border: none;
   border-bottom: 1px solid #747070;
+  color: #747070;
   margin-bottom: 1.5rem;
   margin-top: 1.5rem;
   font-size: 1rem;
